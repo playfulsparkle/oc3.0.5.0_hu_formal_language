@@ -7,7 +7,7 @@ $_['text_extension']		= 'Bővítmények';
 $_['text_success']			= 'Siker: A Cardinity fizetési modul sikeresen módosítva lett!';
 $_['text_edit']             = 'Cardinity szerkesztése';
 $_['text_cardinity']		= '<a href="http://cardinity.com/?crdp=opencart" target="_blank" rel="external noopener noreferrer"><img src="view/image/payment/cardinity.png" alt="Cardinity" title="Cardinity" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_production']		= 'Termelés';
+$_['text_production']		= 'Éles környezet';
 $_['text_sandbox']			= 'Tesztkörnyezet';
 $_['text_payment_info']		= 'Visszatérítési információ';
 $_['text_no_refund']		= 'Nincs visszatérítési előzmény';
@@ -28,26 +28,26 @@ $_['column_amount']			= 'Összeg';
 $_['column_description']	= 'Leírás';
 
 // Entry
-$_['entry_editing_shop']	= 'Shop';
+$_['entry_editing_shop']	= 'Üzlet';
 $_['entry_total']			= 'Teljes összeg';
-$_['entry_order_status']	= 'Rendelés állapot';
+$_['entry_order_status']	= 'Rendelés állapota';
 $_['entry_geo_zone']		= 'Adózóna';
 $_['entry_status']			= 'Állapot';
 $_['entry_sort_order']		= 'Sorrend';
 $_['entry_key']				= 'Kulcs';
-$_['entry_secret']			= 'Titkos';
-$_['entry_debug']			= 'Hibakeresés';
-$_['project_key']			= 'Project ID';
-$_['project_secret']		= 'Project Secret';
-$_['entry_external']		= 'External checkout';
-$_['entry_log']		        = 'Transaction Log';
+$_['entry_secret']			= 'Titkos kulcs';
+$_['entry_debug']			= 'Hibakeresés naplózása';
+$_['project_key']			= 'Projektazonosító';
+$_['project_secret']		= 'Projekt titkos kulcsa';
+$_['entry_external']		= 'Külső fizetési folyamat';
+$_['entry_log']		        = 'Tranzakciónapló';
 
 // Help
-$_['help_debug']			= 'A debug engedélyezése érzékeny adatokat ír a naplófájlba. Mindig tiltsa le, kivéve, ha másképp utasítják.';
-$_['help_total']            = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie, mielőtt ez a fizetési mód aktívvá válik.';
-$_['help_external']			= 'Enabling external checkout will perform the payment in our secured hosted server, instead of internally.';
-$_['help_consumer_cred']	= 'Consumer Key and Consumer Secret can be found in your cardinity dashboard > Integration > API settings. Only required if using internal method.';
-$_['help_project_cred']		= 'Project ID and Project Secret can be found in your cardinity dashboard > Integration > API settings. Only required if using external hosted method.';
+$_['help_debug']			= 'A hibakeresés engedélyezése érzékeny adatokat ír egy naplófájlba. Mindig tiltsa le, hacsak másképp nem utasítják.';
+$_['help_total']            = 'Az a rendelési összeg, amelyet a rendelésnek el kell érnie ahhoz, hogy ez a fizetési mód aktívvá váljon.';
+$_['help_external']			= 'A külső fizetési folyamat engedélyezése esetén a fizetés a biztonságos, hosztolt szerverünkön történik, nem pedig a rendszeren belül.';
+$_['help_consumer_cred']	= 'A Consumer Key és a Consumer Secret a Cardinity irányítópultján található: Integration > API settings. Csak a belső módszer használata esetén szükséges.';
+$_['help_project_cred']		= 'A Projektazonosító (Project ID) és a Projekt titkos kulcsa (Project Secret) a Cardinity irányítópultján található: Integration > API settings. Csak a külső, hosztolt módszer használata esetén szükséges.';
 
 // Button
 $_['button_refund']			= 'Visszatérítés';
@@ -62,6 +62,6 @@ $_['error_php_version']		= 'Minimum PHP 5.4.0 verzió szükséges!';
 $_['error_permission']		= 'Figyelmeztetés: Nincs jogosultsága a Cardinity módosításához!';
 $_['error_connection']		= 'Probléma merült fel a kapcsolat létrehozásakor a Cardinity API-val. Kérjük, ellenőrizze a kulcs és titkos beállításait.';
 $_['error_warning']         = 'Figyelmeztetés: Kérjük, ellenőrizze, és javítsa a hibákat az űrlapon!';
-$_['refund_approved']	= 'Refund Approved';
-$_['refund_declined']	= 'Refund Declined';
-$_['refund_processing']	= 'Refund Processing, check back later';
+$_['refund_approved']	    = 'A visszatérítés jóváhagyva';
+$_['refund_declined']	    = 'A visszatérítés elutasítva';
+$_['refund_processing']	    = 'A visszatérítés feldolgozás alatt, kérjük, ellenőrizze később';

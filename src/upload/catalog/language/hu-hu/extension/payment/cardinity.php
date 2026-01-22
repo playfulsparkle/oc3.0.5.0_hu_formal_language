@@ -22,3 +22,4 @@ $_['error_payment_declined']			= 'A kifizetést a kibocsátó bank elutasította
 
 // Button
 $_['button_confirm']					= 'Fizetés most';
+$_['text_loading']					    = 'Betöltés...';
